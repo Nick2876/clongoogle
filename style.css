@@ -1,0 +1,199 @@
+*{
+
+    margin: 0;
+    padding: 0
+    ;box-sizing: border-box;
+
+}
+
+body{
+    background-color:#202124;
+    
+}
+
+header{ 
+    display:flex;
+    justify-content: end;
+    height: 60px;
+    padding: 0 12px;
+}
+
+header .options{
+
+    display: flex;
+    align-items: center;
+    gap: 18px;
+
+}
+
+header .options a{
+    font-family: Arial,sans-serif;
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 13px;
+}
+
+header  .options a img {
+    height: 24px;
+    width: 24px;
+
+}
+
+header .name img{
+
+    height: 32px;
+    width: 32px;
+    border-radius: 50%;
+
+
+}
+
+main {
+    height:calc(100% - 60 px - 65px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 32px ;
+  font-family: Arial, sans-serif;
+
+
+}
+
+
+main .botones button {
+   border: none;
+   border-radius: 8px;
+   font-size: 14px;
+   background-color: #303134;
+   padding: 12px;
+   color: whitesmoke;
+   font-size: small;
+   background-repeat: no-repeat;
+
+   
+}
+
+main .buscador img{ 
+    width: 18px;
+    display: inline-block;
+    height: 18px;
+    width: 18px;
+    background-repeat: no-repeat;
+    background-image:url(assets/lupa-logo.svg)
+
+}
+    
+
+
+
+main .buscador  {
+  display: flex;
+  gap: 3px ;
+  align-items: center;
+  border:1px solid gray;
+  padding: 20px 24px;
+  height: 40px;
+  border-radius:24px;
+  width: 580px  
+  
+
+
+
+
+}
+
+
+
+main    .buscador   input{
+   background-color: transparent;
+    border: none;
+    color: whitesmoke;
+    width: 95%;
+}
+
+
+main    .buscador   button .microfono{
+    width: 24px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(assets/microfono-logo.svg)
+    
+    
+
+
+
+}
+
+main    .buscador   button .camara{
+    width: 24px;
+    display: inline-block;
+    height: 24px;
+    width: 24px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image:url(assets/camara-logo.svg)
+   
+}
+    
+main    .buscador   button{
+    background-color: transparent;
+    border: none;
+
+}
+
+
+footer{
+
+    display: flex;
+    
+    flex-direction: column;
+    background-color: #171717;
+    height: 90px;
+    position:absolute ;
+    bottom:0;
+    width:100%;
+    color:#999da2;
+    font-family: Arial,sans-serif;
+     
+}
+
+
+footer  section{
+
+    padding: 16px;
+    font-size:90%;
+
+}
+
+footer .info {
+padding: 30 15px;
+display:flex;
+align-items: center;
+height: 500%; 
+
+}
+
+footer .info {
+    border-top: #999da2 solid 1px;
+    display:flex;
+    justify-content: space-between;
+    
+ }
+
+ footer .info div a{
+    text-decoration: none;
+    color: #999da2;
+
+ } 
+
+ footer .info div {
+    font-size: 80%;
+    display: flex;
+    gap: 12PX; 
+ }
+    
+
